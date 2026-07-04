@@ -1,0 +1,29 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.stat {
+  background: linear-gradient(135deg, #1b2233, #141a28);
+  border: 1px solid #2a3346;
+  border-radius: 14px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.stat__value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffcb05;
+  text-transform: capitalize;
+}
+
+.stat__label {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #97a0b5;
+}

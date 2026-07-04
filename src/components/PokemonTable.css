@@ -1,0 +1,89 @@
+.table__wrap {
+  overflow-x: auto;
+  border: 1px solid #2a3346;
+  border-radius: 14px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table thead th {
+  background: #1b2233;
+  color: #97a0b5;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.table tbody td {
+  padding: 0.6rem 1rem;
+  border-top: 1px solid #222a3b;
+  vertical-align: middle;
+}
+
+.table tbody tr:hover {
+  background: rgba(255, 203, 5, 0.05);
+}
+
+.table__img {
+  width: 52px;
+  height: 52px;
+  image-rendering: pixelated;
+}
+
+.table__id {
+  color: #6b7488;
+  font-variant-numeric: tabular-nums;
+}
+
+.table__name {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.table__types {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.table__empty {
+  text-align: center;
+  padding: 3rem;
+  color: #97a0b5;
+}
+
+/* Type badges */
+.badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+  background: #6b7488;
+}
+
+.badge--normal { background: #a8a878; }
+.badge--fire { background: #f08030; }
+.badge--water { background: #6890f0; }
+.badge--electric { background: #f8d030; color: #333; }
+.badge--grass { background: #78c850; }
+.badge--ice { background: #98d8d8; color: #333; }
+.badge--fighting { background: #c03028; }
+.badge--poison { background: #a040a0; }
+.badge--ground { background: #e0c068; color: #333; }
+.badge--flying { background: #a890f0; }
+.badge--psychic { background: #f85888; }
+.badge--bug { background: #a8b820; }
+.badge--rock { background: #b8a038; }
+.badge--ghost { background: #705898; }
+.badge--dragon { background: #7038f8; }
+.badge--dark { background: #705848; }
+.badge--steel { background: #b8b8d0; color: #333; }
+.badge--fairy { background: #ee99ac; color: #333; }
